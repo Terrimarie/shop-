@@ -4,10 +4,11 @@ html {
 
 body {
     /* My image */
-    background: url('file:///workspace/shop-/media/pexels-waldir-e%CC%81vora-5701997-min.jpg') no-repeat center center fixed;
+    background: url('/media/model1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    /* My colour */
+    color: #696969;
     /* My font choice */
     font-family: 'Big Shoulders Inline Text';
 }
@@ -30,10 +31,11 @@ body {
     width: fit-content;
 }
 
+/* My button */
 .shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+    background:white;
+    color: #696969;
+    min-width: 80px;
 }
 
 .btn-black {
@@ -51,8 +53,9 @@ body {
     color: white;
 }
 
+/* My text black */
 .text-black {
-    color: #000 !important;
+    color: #696969 !important;
 }
 
 .border-black {
