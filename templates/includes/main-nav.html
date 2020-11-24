@@ -2,27 +2,11 @@
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                clothing
+                shop clothing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
             <!-- My Products -->
-                <a href="" class="dropdown-item">Shirt</a>
-                <a href="" class="dropdown-item">Blouse</a>
-                <a href="" class="dropdown-item">T-Shirt</a>
-                <a href="" class="dropdown-item">Co-ord</a>
-                <a href="" class="dropdown-item">Top</a>
-                <a href="" class="dropdown-item">Coat</a>
-                <a href="" class="dropdown-item">Jacket</a>
-                <a href="" class="dropdown-item">Joggers</a>
-                <a href="" class="dropdown-item">Dress</a>
-                <a href="" class="dropdown-item">Vest</a>
-                <a href="" class="dropdown-item">Suit</a>
-                <a href="" class="dropdown-item">Jumper</a>
-                <a href="" class="dropdown-item">Bottoms</a>
-                <a href="" class="dropdown-item">Hoodie</a>
-                <a href="" class="dropdown-item">Blazer</a>
-                <a href="" class="dropdown-item">Trouser</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}" class="dropdown-item">all clothes</a>
             </div>
         </li>
 
@@ -30,10 +14,11 @@
         <!-- My trends link -->
             <a class="logo-font font-weight-bold nav-link text-black" 
             href="#" id="trends-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                trends
+                search
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="trends-link">
-                <a href="" class="dropdown-item">trends</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">by rating</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">by price</a>
             </div>
         </li>
     </ul>
