@@ -7,16 +7,17 @@
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
             <!-- My Products -->
                 <a href="{% url 'products' %}" class="dropdown-item">all clothes</a>
+                <a href="{% url 'products' %}" class="dropdown-item">trends</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
         <!-- My trends link -->
             <a class="logo-font font-weight-bold nav-link text-black" 
-            href="#" id="trends-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            href="#" id="all-products--link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 search
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="trends-link">
+            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">by rating</a>
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">by price</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item">by category</a>
