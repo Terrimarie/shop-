@@ -1,55 +1,59 @@
-Book Room Website
-This is a website for people who want to search, add, store, edit, delete book records. They can search for books, add books, edit books, delete books. Admins can also create and delete genre's. Each user can only delete books added by that user.
+# Shop My Closet Website
+This is a website for people who want to buy clothes. They can search for clothes and buy clothes. Superusers can also add items and delete items. Users can review and give a sar rating for each item.
 
-UX
-The book page the book room website is white and simple for the the user to use. There is a simple search bar they can use as a user or an admin user, with a search and reset button. Along with a simple navigation bar leading you to the books, profile page, add book, manage categories and log out as an admin or as a user the books, profile page, add book and log out page. The book room once clicked brings you back to the book page.
+## UX
+The Shop My Closet website is white and simple for the the user to use. There is a simple search bar they can use as a user, with a search bar. Along with a simple navigation bar. The Shop My Closet once clicked brings you back to the book page.
 
-As a user on the books page, you can search bar you can search key words from the books title, author or genre. You can click the edit button next to the book you want to edit, this lets you to the edit book page where you can edit the book genre, title, author, due date and mark as urgent or not. At the bottom of the edit book page you can select edit book or cancel.
+As a user you can review, star and buy products.
 
-On the profile page you can check to see if you are logged in as a user e.g Terri or as an Admin.
+As a user user you can add and delete products.
 
-As a user on the add book page you can add a book, choose its genre, book title, author, due date, mark as urgent or not then click add book button.
+## UI
+This website is for individuals who love clothes, they want to review the items. This project will help them keep track of the trending clothes.
 
-Then you can select log out from the nav bar.
+## User Story	
+As a/an	I want to be able to…	So that I can...
+		Viewing and Navigation 	
+1	Shopper	View the products	Select something to purchase
+2	Shopper	View product details	So I know the price, size, description
+3	Shopper	View trending products	So I know what products are on trend
+4	Shopper	View my total purchases	So that I know how much I am spending
+		Registeration 	
+5	Site User	Register a account	Have my own personal account
+6	Site User	Log in and log out	To log in and out
+7	Site User	Recover password	Recover forgotten password
+8	Site User	Save account info	View all my account info, purchases, orders and save payment info
+9	Site User	Personalised profile	View all my account info, purchases, orders and save payment info
+		Purchasing	
+10	Shopper	Select size of product	Select the right product and size
+11	Shopper	Put products in bag	View bag and price of items 
+12	Shopper	Adjust how many products you have	Change how many products you have
+13	Shopper	Enter payment info easily	Check out quickly
+14	Shopper	Payment info is safe	Making sure the payment info is safe
+15	Shopper	Order confirmation	Viewing the order confirmation, so you know what you are about to purchase
+16	Shopper	Email confirmation	Recieveing an email confirmation, so you know the products are purchased
+		Admin 	
+17	Store Owner	Listing trending product as trending 	Using the customer data to make a trending list
+18	Store Owner	Edit Product	Update, edit or delete product
 
-As an admin you select books then you can search the keys words from the book title, author and genre. Select profile and check the profile to see that you are logged in as an admin. You can select add a book add a book. You can select manage categories where you can add, edit and delete a category. Then you can select log out to log out.
-
-UI
-This website is for individuals who love reading, they want to keep a record of the books and genres. This project will help them keep track of all the books they want to read.
-
-User stories
-Epic 1
-As an admin user I want to search all the books by key words from the title, author and genre.
-Story 1
-As an admin user I want to be able to add new books.
-Story 2
-As an admin user I want to be able to add, edit and delete categories.
-Epic 2
-As a user to search all the books by key words from the title, author and genre
-Story 1
-As a user I want to be able to add new books.
-Features
-Existing Features
-Book Room - The Book Room button allows users to click on and get brought back to the books page from any of the other pages.
-
+## Features
 Nav Bar - The nav bar allows the user to click on any of the navigation links, each one brings them to another page.
 
-Reset button - The reset button allows the user to click on the button bringing them back to the list of books.
 
-Search button - The search button allows the user to search key words from the book title, author or genre.
+Search button - The search button allows the user to search key words.
 
-Delete button - The allows the user to delete a book.
+Future feature didnt finish. Remove button - The allows the user to delete.
 
-Edit button - The edit button allows the user to edit the books genre, title, author, due date and mark as urgent.
+Future feature didnt finish. Update button - The update button allows the user to update.
 
-Cancel button - The cancel button allows the user to cancel any edits to the books.
+Keep shopping - Allows the user to go back to the shopping page.
 
-Add book feature - Allow the user to add the books name, author, due date, mark as urgent and select the add book button.
+Future feature didnt finish. Secure check out - Allow the user to go to a secure checkout page.
 
 Features Left to Implement
-I started a delete_confirmation page so that the user would get a message saying are you sure you want to delete? This is a future feature too be finished.
+Remove, Update and Secure checkout buttons
 
-Technologies
+## Technologies used
 HTML The project uses HTML5 mark up language code used for basic description and layout of website.
 
 CSS The project uses CSS3 style sheet language used to create content structure and design of website.
@@ -70,57 +74,31 @@ Fontawesome The project uses fontawesome for the icon links.
 
 Materialize The project uses materialize for the icon links, accordion and date calendar.
 
-Testing
+## Testing
 Open webite on chrome, safari and firefox to manually test all links.
 
 In dev tools the site has been tested on all mobile devices, tablets through to laptops and computers.
 
-Log in as a user Terri password Hack27ney.
+Log in as a user SuperUser Hack27ney.
 
-Go to nav bar and select Books, this takes you to the books page.
+Go to nav bar and select shop clohing, select all clothes.
 
-Once on the Books page you can use the search bar, using key words to narrow down your search.
+Select the search bar, using key words to narrow down your search.
 
-You can select the reset button to reset back to the orginal the list of books.
+Future feature didnt finish. You can select the reset button to reset back.
 
-Select delete button to delete a book.
+Future feature didnt finish. Select remove button to remove a product.
 
-Select the edit button to edit the genre, book title, author, due date or mark as urgent, then click the edit book button to save changes made or the cancel button to cancel the changes.
+Select account here you can click on Edit products, My profile and log out. Future feature didnt finish. Some not finished.
 
-Go to nav bar and select profile, this takes you to the profile page.
-
-Go to nav bar and select add book, this allows you to choose book genre, title, author, due date and mark as urgent if you like then select add book to save.
-
-Go to nav bar and select log out, this logs you out.
-
-Log in as a user Admin password Hack27ney.
-
-Go to nav bar and select Books, this takes you to the books page.
-
-Once on the Books page you can use the search bar, using key words to narrow down your search.
-
-You can select the reset button to reset back to the orginal the list of books.
-
-Select delete button to delete a book.
-
-Select the edit button to edit the genre, book title, author, due date or mark as urgent, then click the edit book button to save changes made or the cancel button to cancel the changes.
-
-Go to nav bar and select profile, this takes you to the profile page.
-
-Go to nav bar and select add book, this allows you to choose book genre, title, author, due date and mark as urgent if you like then select add book to save.
-
-Go to nav bar and select manage categories, click add category button to add a category, on the add category page type in the category name and click add category. Click on the edit button on any of the existing categories, on the edit category page you can change the name and click edit category or click cancel. You can also click delete to delete any of the existing categories.
-
-Go to nav bar and select log out, this logs you out.
-
-Bugs
+## Bugs
 When I found bugs I double clicked the site and went to dev tools check the console log and found a resolution.
 Got rid of 404 errors.
 Tested responsiveness of site and links.
 Existing bugs
 None
 
-Deployment
+## Deployment
 The code is hosted by master branch in GitHub
 Deployed the project using Heroku.
 Running the code using GitPod.
@@ -129,13 +107,15 @@ Used console in GitPod to write code and use terminal and Git commands to send c
 Used Git to save code and view changes made.
 Used GitHub & Heroku repository to save code.
 Adding to the repository git add -Acknowledgements git commit -m "initial commit" git push
-Credits
-Inspired by Tim Nelson for his mini-project videos.
 
-Acknowledgements
-Inspired by Tim Nelson for his mini-project videos.
+## Credits
+Inspired by boutique abo project
 
-Link to Wireframe
-My wireframe was created using wireframepro https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_D0bb409598699aa3410c0f724ec91428c.pdf
+# Media
+The photos I used I got from Kaggle https://www.kaggle.com/
 
-My Product Review is in Products/models.py, Producs/admin.py
+## Acknowledgements
+Inspired by boutique abo project
+
+## Link to Wireframe
+My wireframe was created using balsamiq https://balsamiq.cloud/swmzwvi/pplukgv/r2278
