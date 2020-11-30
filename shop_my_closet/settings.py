@@ -21,12 +21,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'vbqxjglz5q30+x$unxb*l8yd0!6$oec-*2tj75!qb55@vbd*_z'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'vbqxjglz5q30+x$unxb*l8yd0!6$oec-*2tj75!qb55@vbd*_z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['shop-my-closet-django-app.com']
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 
 # Application definition
@@ -115,7 +115,7 @@ WSGI_APPLICATION = 'shop_my_closet.wsgi.application'
 #}
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://zaexdpztkogvri:9f223144be486262036ef7127682b4940b3145ce56f98e07ac152b538da6f734@ec2-54-157-66-140.compute-1.amazonaws.com:5432/d5c3uluksubp40')
+    'default': dj_database_url.parse(os.envrion.get'DATABASE_URL')
 }
 
 
