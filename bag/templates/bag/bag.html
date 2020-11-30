@@ -15,8 +15,7 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <!-- My logo font -->
-                <h2 class="logo-font mb-4">shopping bag</h2>
+                <h2 class="logo-font mb-4">Shopping Bag</h2>
                 <hr>
             </div>
         </div>
@@ -28,12 +27,11 @@
                         <table class="table table-sm table-borderless">
                             <thead class="text-black">
                                 <tr>
-                                <!-- My font -->
-                                    <th scope="col">product Info</th>
+                                    <th scope="col">Product Info</th>
                                     <th scope="col"></th>
-                                    <th scope="col">price</th>
-                                    <th scope="col">qty</th>
-                                    <th scope="col">subtotal</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Qty</th>
+                                    <th scope="col">Subtotal</th>
                                 </tr>
                             </thead>
 
@@ -47,7 +45,6 @@
                                         <p class="my-0"><strong>Size: </strong>{% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
                                     </td>
                                     <td class="py-3">
-                                    <!-- My £ signs -->
                                         <p class="my-0">£{{ item.product.price }}</p>
                                     </td>
                                     <td class="py-3 w-25">
@@ -76,10 +73,10 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span class="text-lowercase">keep shopping</span>
+                                        <span class="text-uppercase">Keep Shopping</span>
                                     </a>
                                     <a href="" class="btn btn-black rounded-0 btn-lg">
-                                        <span class="text-lowercase">secure checkout</span>
+                                        <span class="text-uppercase">Secure Checkout</span>
                                         <span class="icon">
                                             <i class="fas fa-lock"></i>
                                         </span>
@@ -94,7 +91,7 @@
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                         </span>
-                        <span class="text-lowercase">keep shopping</span>
+                        <span class="text-uppercase">Keep Shopping</span>
                     </a>
                 {% endif %}
             </div>

@@ -32,7 +32,7 @@ class Product(models.Model):
         return self.name
 
 
-# My Product Review
+# My Model 1/ My Product Review
 class ProductReview(models.Model):
     product = models.ForeignKey(Product, related_name='reviews', on_delete=models.CASCADE)
     user = models.ForeignKey(User, related_name='reviews', on_delete=models.CASCADE)
@@ -41,3 +41,11 @@ class ProductReview(models.Model):
     stars = models.IntegerField()
 
     date_added = models.DateTimeField(auto_now_add=True)
+
+# My Model 2/ My Get Rating
+
+def get_rating(self):
+    total = sum(int(review['stars']) for review in self.reviews.values())
+
+    return total / self.reviews.count()
+

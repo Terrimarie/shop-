@@ -60,10 +60,15 @@ def all_products(request):
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
-    # Add review
+    # Add My Review
 
-    
+    if request.method == 'POST' and request.user.is_authenicated:
+        stars = request.POST.get('stars', 3)
+        content = request.POST.get('content', '')
 
+        review = ProductReview.objects.create(product=product, user=request.user, stars=stars, content=content)
+
+        return redirect('product_detail')
     #
 
     product = get_object_or_404(Product, pk=product_id)
