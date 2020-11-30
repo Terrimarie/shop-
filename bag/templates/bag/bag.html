@@ -59,7 +59,6 @@
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                <!-- My £ signs -->
                                     <h6><strong>Bag Total: £{{ total|floatformat:2 }}</strong></h6>
                                     <h6>Delivery: £{{ delivery|floatformat:2 }}</h6>
                                     <h4 class="mt-4"><strong>Grand Total: £{{ grand_total|floatformat:2 }}</strong></h4>
@@ -76,12 +75,10 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <!-- My font -->
-                                        <span class="text-uppercase">keep shopping</span>
+                                        <span class="text-lowercase">keep shopping</span>
                                     </a>
                                     <a href="" class="btn btn-black rounded-0 btn-lg">
-                                    <!-- My font -->
-                                        <span class="text-uppercase">secure checkout</span>
+                                        <span class="text-lowercase">secure checkout</span>
                                         <span class="icon">
                                             <i class="fas fa-lock"></i>
                                         </span>
@@ -91,14 +88,12 @@
                         </table>
                     </div>
                 {% else %}
-                <!-- My font -->
-                    <p class="lead mb-5">your bag is empty.</p>
+                    <p class="lead mb-5">Your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                         </span>
-                        <!-- My font -->
-                        <span class="text-uppercase">keep shopping</span>
+                        <span class="text-lowercase">keep shopping</span>
                     </a>
                 {% endif %}
             </div>

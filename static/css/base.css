@@ -145,3 +145,8 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 }
+
+/* My Review spacing */
+.notification.space-below{
+    margin-bottom: 20px;
+}
