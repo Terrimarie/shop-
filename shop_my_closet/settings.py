@@ -26,7 +26,7 @@ SECRET_KEY = 'vbqxjglz5q30+x$unxb*l8yd0!6$oec-*2tj75!qb55@vbd*_z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shop-my-closet-django-app.com']
 
 
 # Application definition
