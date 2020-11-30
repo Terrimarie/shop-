@@ -15,7 +15,8 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">Shopping Bag</h2>
+                <!-- My logo font -->
+                <h2 class="logo-font mb-4">shopping bag</h2>
                 <hr>
             </div>
         </div>
@@ -27,11 +28,12 @@
                         <table class="table table-sm table-borderless">
                             <thead class="text-black">
                                 <tr>
-                                    <th scope="col">Product Info</th>
+                                <!-- My font -->
+                                    <th scope="col">product Info</th>
                                     <th scope="col"></th>
-                                    <th scope="col">Price</th>
-                                    <th scope="col">Qty</th>
-                                    <th scope="col">Subtotal</th>
+                                    <th scope="col">price</th>
+                                    <th scope="col">qty</th>
+                                    <th scope="col">subtotal</th>
                                 </tr>
                             </thead>
 
@@ -44,6 +46,7 @@
                                         <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                                     </td>
                                     <td class="py-3">
+                                    <!-- My £ signs -->
                                         <p class="my-0">£{{ item.product.price }}</p>
                                     </td>
                                     <td class="py-3 w-25">
@@ -56,6 +59,7 @@
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
+                                <!-- My £ signs -->
                                     <h6><strong>Bag Total: £{{ total|floatformat:2 }}</strong></h6>
                                     <h6>Delivery: £{{ delivery|floatformat:2 }}</h6>
                                     <h4 class="mt-4"><strong>Grand Total: £{{ grand_total|floatformat:2 }}</strong></h4>
@@ -72,10 +76,12 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span class="text-uppercase">Keep Shopping</span>
+                                        <!-- My font -->
+                                        <span class="text-uppercase">keep shopping</span>
                                     </a>
                                     <a href="" class="btn btn-black rounded-0 btn-lg">
-                                        <span class="text-uppercase">Secure Checkout</span>
+                                    <!-- My font -->
+                                        <span class="text-uppercase">secure checkout</span>
                                         <span class="icon">
                                             <i class="fas fa-lock"></i>
                                         </span>
@@ -85,12 +91,14 @@
                         </table>
                     </div>
                 {% else %}
-                    <p class="lead mb-5">Your bag is empty.</p>
+                <!-- My font -->
+                    <p class="lead mb-5">your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                         </span>
-                        <span class="text-uppercase">Keep Shopping</span>
+                        <!-- My font -->
+                        <span class="text-uppercase">keep shopping</span>
                     </a>
                 {% endif %}
             </div>
