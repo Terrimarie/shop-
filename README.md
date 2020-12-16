@@ -39,7 +39,6 @@ As a/an	I want to be able to…	So that I can...
 ## Features
 Nav Bar - The nav bar allows the user to click on any of the navigation links, each one brings them to another page.
 
-
 Search button - The search button allows the user to search key words.
 
 Future feature didnt finish. Remove button - The allows the user to delete.
