@@ -78,7 +78,7 @@ Open webite on chrome, safari and firefox to manually test all links.
 
 In dev tools the site has been tested on all mobile devices, tablets through to laptops and computers.
 
-Log in as a user SuperUser Hack27ney.
+Log in as a superuser TerriMG tmgrierson@gmail.com password Hack27ney! 
 
 Go to nav bar and select shop clohing, select all clothes.
 
