@@ -1,1 +1,1 @@
-web: gunicorn shop-my-closet-django.wsgi:application
+web: gunicorn shop_my_closet.wsgi:application
